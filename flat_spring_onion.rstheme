@@ -315,7 +315,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 }
 
 .rstudio-themes-flat > .rstudio-themes-default .gwt-SplitLayoutPanel td {
-  border-color: #B4CC8E;
+  border-color: transparent;
 }
 
 .rstudio-themes-flat .rstudio-themes-default .gwt-TabLayoutPanel > div > div.gwt-TabLayoutPanelTabs {
