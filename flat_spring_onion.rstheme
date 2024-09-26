@@ -58,7 +58,7 @@
 
 .ace_constant.ace_language {
   color: inherit;
-  background-color: #DCF2A7;
+  background-color: #CAFAA0;
   font-style: italic;
 }
 
@@ -70,7 +70,7 @@
 
 .ace_string {
   color: #2F6524;
-  background-color: #CAFAA0;
+  background-color: #DCF2A7;
   font-style: italic;
 }
 
