@@ -1,4 +1,4 @@
-/* rs-theme-name: Flat Spring Onion */
+/* rs-theme-name: Flat Spring Onion (Zoe) */
 /* rs-theme-is-dark: FALSE */
 /* Flat Spring Onion
  *
@@ -33,13 +33,19 @@
 }
 
 .ace_marker-layer .ace_selection {
-  background: #A5CAA5;
+  background: #BFD9BF;
+  border: 2px solid #9AC19A;
+  margin: 0 0 0 -2px;
+}
+
+.ace_marker-layer .ace_active-line {
+  background: rgba(216, 233, 210, 0.5)
 }
 
 .ace_bracket {
   margin: 0 !important;
   border: 0 !important;
-  background-color: #8FEF6C;
+  background-color: #92E873;
 }
 
 .ace_keyword {
@@ -82,7 +88,12 @@
 
 .ace_comment {
   font-style: italic !important;
-  color: #6CB950;
+  color: #62AF46;
+}
+
+.ace_print-margin {
+  width: 2px;
+  background: #D8E9D2
 }
 
 /* roxygen keywords */
