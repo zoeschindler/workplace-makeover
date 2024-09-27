@@ -43,8 +43,8 @@
 }
 
 .ace_keyword {
-  color: #52BA12 !important;
-  font-weight: bold !important;
+  color: #52BA12;
+  font-weight: bold;
 }
 
 .ace_meta,
@@ -80,12 +80,6 @@
   box-shadow: 1px 0 0 #D8DECE;
 }
 
-.ace_console_error {
-  background-color: #1B2E1B !important;
-  color: #F6F9F1 !important;
-  font-weight: bold !important;
-}
-
 .ace_comment {
   font-style: italic !important;
   color: #6CB950;
@@ -96,6 +90,13 @@
 .ace_keyword.ace_virtual-comment {
   background-color: #F7FFC2;
   color: #6CB950 !important;
+}
+
+/* errors */
+
+.GNTYACMBK3B {
+  background-color: #FFDBE7 !important;
+  color: #2F6524 !important;
 }
 
 /* ---- Rainbow indent stuff ---- */
