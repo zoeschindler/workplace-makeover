@@ -6,9 +6,9 @@
  * By Dmitry Biletskyy
  * https://github.com/biletskyy/flatwhite-syntax
  * Color palette
- * https://coolors.co/f6f9f1-bad098-598329-2f6524-1b2e1b-061102-494547-353134 
+ * https://coolors.co/f6f9f1-bad098-598329-2f6524-1b2e1b-061102-494547-353134
  */
- 
+
 .ace_editor, .ace_editor_theme .profvis-flamegraph, .ace_editor_theme {
   background-color: #F6F9F1;
   color: #203C1E;
@@ -88,7 +88,14 @@
 
 .ace_comment {
   font-style: italic !important;
-  color: #3AA512;
+  color: #6CB950;
+}
+
+/* roxygen keywords */
+
+.ace_keyword.ace_virtual-comment {
+  background-color: #F7FFC2;
+  color: #6CB950 !important;
 }
 
 /* ---- Rainbow indent stuff ---- */
@@ -272,12 +279,6 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 .ace_meta.ace_tag + .ace_keyword {
   color: #61814B;
   background-color: inherit;
-}
-
-/* roxygen keywords */
-
-.ace_keyword.ace_virtual-comment {
-  background-color: #C6FFA0;
 }
 
 /* Fix RStudio toolbars and things */
