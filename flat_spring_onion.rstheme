@@ -33,9 +33,11 @@
 }
 
 .ace_marker-layer .ace_selection {
-  background: #BFD9BF;
-  border: 2px solid #9AC19A;
+  background: #BFD9BF !important;
+  border: 2px solid #9AC19A !important;
   margin: 0 0 0 -2px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .ace_marker-layer .ace_active-line {
@@ -64,19 +66,19 @@
 
 .ace_constant.ace_language {
   color: inherit;
-  background-color: #CAFAA0;
+  background-color: rgba(179, 248, 119, 0.5);
   font-style: italic;
 }
 
 .ace_constant.ace_numeric {
   color: inherit;
-  background-color: #BFE8B0;
+  background-color: rgba(165, 223, 144, 0.5);
   font-style: italic;
 }
 
 .ace_string {
   color: #2F6524;
-  background-color: #DCF2A7;
+  background-color: rgba(205, 236, 131, 0.5);
   font-style: italic;
 }
 
